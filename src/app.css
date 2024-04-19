@@ -1,0 +1,95 @@
+/*#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+}
+
+.box {
+  background-color: hsl(217, 19%, 24%);
+  height: 19rem;
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: -32px;
+  border: hsl(218, 23%, 16%);
+  border-radius: 15px;
+  padding-inline: 8px;
+  position: relative;
+}
+
+.advice-title {
+  color: hsl(150, 100%, 66%);
+}
+
+.pattern_divider {
+  width: 75%;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 28px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .box {
+    height: 19rem;
+    width: 21rem;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+
+.btn-dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: hsl(150, 100%, 66%);
+  border-radius: 55%;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  bottom: -10%;
+}
+
+.btn-dice:hover,
+.btn-dice:active {
+  box-shadow: hsl(150, 100%, 66%) 0px 8px 10px,
+    hsl(150, 100%, 66%) 0px -6px 15px, hsl(150, 100%, 66%) 0px 2px 3px,
+    hsl(150, 100%, 66%) 0px 6px 7px, hsl(150, 100%, 66%) 0px -3px 5px;
+}
