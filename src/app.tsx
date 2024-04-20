@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./app.css";
 import axios from "axios";
 import pattern_divider_dektop from "./assets/pattern-divider-desktop.svg";
